@@ -41,7 +41,7 @@ Após inserir suas credênciais execute os seguintes comandos:
    dotnet build
 
    # Execute o projeto
-   dotnet run --project ProductAPI
+   dotnet run .
 ```
 
 
