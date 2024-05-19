@@ -12,7 +12,7 @@ Antes de iniciar o projeto, configure as variáveis de ambiente contidas no arqu
 - `Host=localhost` -> (Opcional) Caso o banco de dados esteja em outro host
 
 ## Executar o Postgres via Docker
-Caso não tenha um Postgres server em seu host, o arquivo Dockerfile possui todas as configurações para rodar o Postgres via container. Basta adicionar as mesmas credenciais inseridas no arquivo appSettings nas seguintes variáveis:
+Caso não tenha um Postgres server em seu host, o arquivo `Dockerfile` possui todas as configurações para rodar o Postgres via container. Basta adicionar as mesmas credenciais inseridas no arquivo appSettings nas seguintes variáveis:
 
  - POSTGRES_USER
  - POSTGRES_PASSWORD
@@ -30,7 +30,7 @@ Após inserir suas credênciais execute os seguintes comandos:
 ## Para rodar o projeto há duas opções:
 
 1. **Pela IDE Visual Studio**:
-   - Com o Visual Studio instalado em sua máquina. Clique no arquivo `ProductAPI.csproj.user` e após isso, clique no botão de executar no menu superior da IDE
+   - Com o Visual Studio instalado em sua máquina. Clique no arquivo `ProductAPI.sln` e após isso, clique no botão de executar no menu superior da IDE
 
 2. **Pela linha de comando**, basta executar os comandos abaixo:
 ```bash
@@ -44,6 +44,12 @@ Após inserir suas credênciais execute os seguintes comandos:
    dotnet run .
 ```
 
+Após a inicialização do webserver as apis estarão expostas nas seguintes portas:
+ - HTTP: http://localhost:5066
+ - HTTPS: https://localhost:7063
+
+Para a documentação das APIs, acesse:
+- Swagger: `http://localhost:5066/swagger/index.html`
 
 ## Padrões Mapeados
  - Factory: Para lidar com as conexões do banco de dados.
