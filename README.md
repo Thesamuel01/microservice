@@ -8,7 +8,7 @@
 Antes de iniciar o projeto, configure as variáveis de ambiente contidas no arquivo `appsettings` (ambos os arquivos):
 
 - `User ID=myuser` -> O usuário do banco de dados
-- `Password=myPassword` -> A senha do usuário do banco de dados
+- `Password=mypassword` -> A senha do usuário do banco de dados
 - `Host=localhost` -> (Opcional) Caso o banco de dados esteja em outro host
 
 ## Executar o Postgres via Docker
