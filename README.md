@@ -1,4 +1,5 @@
 # Projeto de Micro Serviço de Produto
+Este repositório é uma API de gerenciamento de produtos com implementações específicas para casos variados. Utilizando padrões de projeto, cada API foi desenvolvida para lidar eficientemente com operações como criação, atualização, exclusão e consulta de produtos.
 
 ## Para rodar o projeto:
 
