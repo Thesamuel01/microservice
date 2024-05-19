@@ -12,7 +12,7 @@ Antes de iniciar o projeto, configure as variáveis de ambiente contidas no arqu
 - `Host=localhost` -> (Opcional) Caso o banco de dados esteja em outro host
 
 ## Executar o Postgres via Docker
-Caso não tenha um Postgres server em seu host, o arquivo Dockerfile possui todas as configurações para rodar o Postgres via container. Basta adicionar as mesmas credenciais inseridas no arquivo appSettings:
+Caso não tenha um Postgres server em seu host, o arquivo Dockerfile possui todas as configurações para rodar o Postgres via container. Basta adicionar as mesmas credenciais inseridas no arquivo appSettings nas seguintes variáveis:
 
  - POSTGRES_USER
  - POSTGRES_PASSWORD
@@ -30,7 +30,7 @@ Após inserir suas credênciais execute os seguintes comandos:
 ## Para rodar o projeto há duas opções:
 
 1. **Pela IDE Visual Studio**:
-   - Com o Visual Studio instalado em sua máquina. Clique no arquivo `ProductAPI.csproj.user` e após isso, clique no botão de executar
+   - Com o Visual Studio instalado em sua máquina. Clique no arquivo `ProductAPI.csproj.user` e após isso, clique no botão de executar no menu superior da IDE
 
 2. **Pela linha de comando**, basta executar os comandos abaixo:
 ```bash
@@ -47,10 +47,17 @@ Após inserir suas credênciais execute os seguintes comandos:
 
 ## Padrões Mapeados
  - Factory: Para lidar com as conexões do banco de dados.
- - Singleton: Para garantir que haja somente uma instância da classe de factories.
- - Repository Pattern: Utilizado para as classes que possuem acesso ao banco de dados.
+ - Singleton: Para garantir que haja somente uma instância da classe das factories.
+ - Repository: Utilizado para as classes que possuem acesso ao banco de dados.
  - Data Transfer Object: Utilizado para as tranferências de dados entre as camadas.
 
 
 ### Boas Práticas
 SOLID: Utilizando conceitos do SOLID para desenvolvimento dos controllers, services e afins.
+
+## Integrantes:
+<p>Adriano Araujo da Silva | 349305</p>
+<p>Danielle Cavalcante Bevilaqua | 348330</p>
+<p>Luan Verdelho de Freitas | 348041</p>
+<p>Mario José de Souza Junior | 430102</p>
+<p>Samuel de Araújo Santos | 348940</p>
