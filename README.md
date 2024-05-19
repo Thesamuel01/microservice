@@ -46,9 +46,10 @@ Após inserir suas credênciais execute os seguintes comandos:
 
 
 ## Padrões Mapeados
- - Factory: Para lidar com as conexões do banco de dados
- - Singleton: Para garantir que haja somente uma instância da classe de factories
- - Active Data Object: Utilizado para as classes que possuem acesso direto aos bancos de dados
+ - Factory: Para lidar com as conexões do banco de dados.
+ - Singleton: Para garantir que haja somente uma instância da classe de factories.
+ - Repository Pattern: Utilizado para as classes que possuem acesso ao banco de dados.
+ - Data Transfer Object: Utilizado para as tranferências de dados entre as camadas.
 
 
 ### Boas Práticas
